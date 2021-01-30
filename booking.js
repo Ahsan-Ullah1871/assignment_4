@@ -20,6 +20,8 @@ function valueCounter(id,isIncrease) {
     subTotal();
     
 }
+
+
 // subtotal math function:
 function subTotal() {
 	// value Detect:
@@ -42,6 +44,9 @@ function subTotal() {
     
     
 }
+
+
+
 
 //Booking confirm form:
 
@@ -81,6 +86,8 @@ function confirmButton() {
 
 }
  
+
+
 // Back button:
 function backButton() {
  document.getElementById("booking-form").style.display = "block";
