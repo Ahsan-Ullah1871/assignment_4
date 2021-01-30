@@ -54,8 +54,8 @@ function confirmButton() {
     
     let ticketCheck = document.getElementById("total-amount").innerText;
       
-    if (ticketCheck == "0") {
-	  	alert("Hello! You didn't buy a ticket!!");
+    if (ticketCheck == "0"  || ticketCheck == "$0" ) {
+		alert("Hello! You didn't buy a ticket!!");
     } else {
 		document.getElementById("booking-form").style.display = "none";
 		document.getElementById("booking-confirm").style.display =
